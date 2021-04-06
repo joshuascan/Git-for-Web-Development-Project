@@ -42,13 +42,23 @@ link to finished codepen: https://codepen.io/joshuascan/pen/LYxjBpP?editors=1100
     20. How do we select classes in CSS?
         . {}
     21. How do we select a p element with a single class of “human””?
+        .human p {}
     22. What is a parent child selector? When would this be useful? 
+        Allows you to select an element within an element. Example: You want to select all <a> elements only within the <footer>.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {}
     24. What is a pseudo selector?
+        Selectors that only take effect when a certain action happens. I.E. mouse hover, click, etc.
     25. What do we use the change the spacing between lines?
+        line-height
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
