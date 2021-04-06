@@ -60,14 +60,26 @@ link to finished codepen: https://codepen.io/joshuascan/pen/LYxjBpP?editors=1100
     28. How do I add a 1px border around my div that is dotted and black?
         border: 1px dotted black;
     29. How do I select everything on the page? 
+        * {}
     30. How do I write a comment in CSS?
+        /* insert comment here  */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm filename
+        Care is needed as there is no way to undo.
     34. Why should I use version control? 
+        To keep track of changes and easily revert to a previous save of a file.
     35. How often should I commit to github?
+        Every 20 minutes or after a function is completed.
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+        Fork repo on github. cd in terminal to directory where you want to clone. Use git clone "link". cd into new repo. Use git checkout -b firstname-lastname to create your own branch.
+        git add . to prep changes for commiting. git commit -m "commit message" to commit changes. git push -u origin branch-name to push commits. On github, go to your forked copy and select your name-branch.
+        Click "pull request". Change base repository to your forked repo. Click "create pull request". Upload link to Canvas. Once this is done, future changes need only follow the "add, commit, push" cycle.
 
 Stretch Questions
 
